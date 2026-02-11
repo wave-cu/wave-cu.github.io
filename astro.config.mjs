@@ -8,7 +8,14 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Bioinformatic Fridays',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com' }],
+			logo: {
+				light: './src/assets/wave-cu-biofridays-logo.png',
+				dark: './src/assets/wave-cu-biofridays-logo.png',
+				alt: 'WAVE-CU Bioinformatic Fridays',
+				replacesTitle: true,
+			},
+			favicon: '/favicon.svg',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/wave-cu' }],
 			sidebar: [
 				{
 					label: 'Course Overview',
