@@ -1,16 +1,12 @@
-# Starlight Starter Kit: Basics
+# Bioinformatic Fridays Docs
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+This repository contains the Bioinformatic Fridays training documentation website, organized as module-based lessons and published on GitHub Pages.
 
-```
-npm create astro@latest -- --template starlight
-```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Site URL: `https://wave-cu.github.io`
 
 ## 🚀 Project Structure
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+Inside this project, you’ll see the following folders and files:
 
 ```
 .
@@ -20,12 +16,15 @@ Inside of your Astro + Starlight project, you'll see the following folders and f
 │   ├── content/
 │   │   └── docs/
 │   └── content.config.ts
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
 ├── astro.config.mjs
 ├── package.json
 └── tsconfig.json
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Content pages live in `src/content/docs/` and are mapped to routes by file path.
 
 Images can be added to `src/assets/` and embedded in Markdown with a relative link.
 
@@ -44,6 +43,11 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Deployment
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+GitHub Pages deployment is automated with GitHub Actions using `.github/workflows/deploy.yml`.
+Pushes to `main` trigger a build and deploy.
+
+## Credits
+
+This documentation site is built with [Astro](https://astro.build/).

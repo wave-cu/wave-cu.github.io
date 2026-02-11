@@ -1,5 +1,8 @@
 # build output
 dist/
+
+# optional local source materials (already migrated to src/content/docs)
+Course_material/
 # generated types
 .astro/
 
