@@ -45,6 +45,17 @@ export default defineConfig({
 						{ label: 'Lesson 5: Building a Bioinformatics Environment', slug: 'module-2-conda/lesson-5-building-a-bioinformatics-environment' },
 					],
 				},
+				{
+					label: 'Module 3: Omics Analysis',
+					items: [
+						{ label: 'Module Overview', slug: 'module-3-omics' },
+						{ label: 'Lesson 1: The Omics Hierarchy and File Architecture', slug: 'module-3-omics/lesson-1-the-omics-hierarchy' },
+						{ label: 'Lesson 2: Precision Quality Control', slug: 'module-3-omics/lesson-2-quality-control' },
+						{ label: 'Lesson 3: Genome Assembly Foundations', slug: 'module-3-omics/lesson-3-genome-assembly-foundations' },
+						{ label: 'Lesson 4: De Novo Assembly with Long Reads', slug: 'module-3-omics/lesson-4-de-novo-assembly' },
+						{ label: 'Lesson 5: Reference-Based Assembly', slug: 'module-3-omics/lesson-5-reference-based-assembly' },
+					],
+				},
 			],
 		}),
 	],
