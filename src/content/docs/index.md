@@ -8,10 +8,14 @@ Bioinformatic Fridays is a weekly, beginner-friendly training series for life sc
 - Weekly, 2-hour live classes with guided demonstrations.
 - Independent practice exercises between sessions.
 - Materials are organized by module in this repository.
-- Three modules currently available:
+- Seven modules currently available:
   - Module 1: Linux for Bioinformatics
   - Module 2: Conda for Bioinformatics
   - Module 3: Omics Analysis
+  - Module 4: Recap Exercises
+  - Module 5: Project
+  - Module 6: Computational Thinking
+  - Module 7: Bash Scripting
 
 ## How To Use This Repository
 - Start in the module folder and follow lessons in order.
